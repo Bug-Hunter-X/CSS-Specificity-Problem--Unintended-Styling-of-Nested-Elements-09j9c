@@ -1,0 +1,7 @@
+The following CSS rule unintentionally targets elements with the class 'highlight' that are descendants of elements with the class 'container':
+
+.container .highlight {
+  background-color: yellow;
+}
+
+However, this unintentionally styles elements with class 'highlight' inside nested '.container' divs.  It lacks the specificity to only target direct children of '.container'.
