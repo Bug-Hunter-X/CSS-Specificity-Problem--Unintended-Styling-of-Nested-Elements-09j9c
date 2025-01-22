@@ -1,0 +1,3 @@
+# CSS Specificity Bug
+
+This repository demonstrates a common CSS specificity issue where selectors unintentionally target nested elements due to lack of specificity. The bug involves a CSS rule that applies styles to elements with the class 'highlight' that are descendants of elements with the class 'container'.  This rule unintentionally styles elements within nested containers, exceeding the desired scope.
