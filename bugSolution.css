@@ -1,0 +1,7 @@
+To fix this, we can increase the specificity of the selector to target only direct children of '.container'. We do this by using the direct child selector '>':
+
+.container > .highlight {
+  background-color: yellow;
+}
+
+This ensures that only elements with the class 'highlight' that are immediate children of '.container' are styled, preventing unintended styling of nested elements.
